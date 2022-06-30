@@ -1,6 +1,5 @@
 package com.anadoluSigorta.pages;
 
-import com.anadoluSigorta.utilities.BrowserUtils;
 import com.anadoluSigorta.utilities.ConfigurationReader;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

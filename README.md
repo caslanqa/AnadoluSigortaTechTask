@@ -9,14 +9,14 @@
 * Project support different browsers, selenium grid and parallel testing
 * For reporting was used "maven-cucumber-reporting plugin" version "5.0.0"
 * Project was developed with **[Intellij IDEA](https://www.jetbrains.com/idea/download/#section=windows)**
-* You can find the task details on **[QA-Assignment-Hepsiburada](Files/QA-Assignment-hepsiburada.pdf)**
+* You can find the task details on **[QA Assignment Anadolu Sigorta](additionalFiles/CaseStudy.pdf)**
 
 # SUMMARY OF STRUCTURE
 * Project was developed by using cucumber framework. There is 4 main title
   * src folder ==> contains test codes and feature files (main body of code structure)
     * src folder structure like the below
     
-    ![src](Files/src.png)
+    ![src](additionalFiles/ProjectStructure.png)
     
     * java folder contain main code structure and resource folder contain feature/scenario files
       * POM design pattern was used in JAVA folder
@@ -30,7 +30,7 @@
 * In additional, there is some detail tips in the relevant class for methods and classes
 
 # TEST EXECUTION
-* You must have relevant JAVA, maven, **[Google Chrome (latest version)](https://www.google.com/chrome/?brand=YTUH&gclid=CjwKCAjwtcCVBhA0EiwAT1fY7-aU10CJz8sI-ncXx6atj1tzHjTWNsMKMop7LnpYodb5omvfq4pRYRoCnbAQAvD_BwE&gclsrc=aw.ds)**
+* You must have relevant JAVA, maven, **[Firefox (latest version)](https://www.mozilla.org/en-US/firefox/download/thanks/)**
 * Clone the project to your local
 * Project have been set the chrome option as default!!
 * Open terminal in the folder and for run the test, provide the code following
@@ -40,12 +40,12 @@
   
   * If you want to run with other browser options, provide the code following
   ```
-  mvn test -Dbrowser="firefox"  
+  mvn test -Dbrowser="chrome"  
   ```
-  > Browser options: "chrome, chrome-headless, firefox, firefox-headless, ie, edge, safari, remote_chrome(selenium grid at aws EC2 machine)"
+  > * Browser options: "chrome, chrome-headless, firefox, firefox-headless, ie, edge, safari, remote_chrome(selenium grid at aws EC2 machine)" 
+  > * If you want to use chrome browser. You must use chrome version before v103. 
   * In addition to all these steps, If you want to run the test case with IDE you must to use cukesrunner class and just click the run button.
   * After test it will create an index.html file at "target/default-html-reports/index.html" directory.
-  * And it will create "apiOutPut.txt" file at the "src/test/resources/TestOutputFiles" directory
 
 ### Developed by Cihan Aslan 
 ### cihan.aslan.qa@gmail.com

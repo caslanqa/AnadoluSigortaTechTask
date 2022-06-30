@@ -3,7 +3,6 @@ package com.anadoluSigorta.step_definitions;
 import com.anadoluSigorta.pages.ProductDetailPage;
 import com.anadoluSigorta.utilities.BrowserUtils;
 import com.anadoluSigorta.utilities.Driver;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
