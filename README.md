@@ -2,7 +2,7 @@
 
 # PROJECT SUMMARY
 * This project developed for Hepsiburada Interview Task
-* **[Java 11.0.15](https://www.oracle.com/tr/java/technologies/javase/jdk11-archive-downloads.html)** was used as developing language
+* **[Java 11.0.15](https://www.oracle.com/tr/java/technologies/javase/jdk11-archive-downloads.html)** jdk used
 * **[Maven 3.8.5](https://maven.apache.org/download.cgi)** Build managment tool
 * Cucumber Framework was used
 * Project support multi OS
