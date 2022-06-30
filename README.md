@@ -1,4 +1,4 @@
-![hepsiburada](Files/hepsiburada.png)
+![Anadolu Sigorta](additionalFiles/logo.png)
 
 # PROJECT SUMMARY
 * This project developed for Hepsiburada Interview Task
